@@ -9,7 +9,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@clerk/nextjs": "^6.9.6",
     "gsap": "^3.12.5",
     "next": "15.1.4",
     "react": "^19.0.0",

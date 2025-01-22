@@ -1,9 +1,12 @@
 "use client";
 import Link from "next/link";
 import React, { useState } from "react";
-import { SignInButton, SignedIn, SignedOut, UserButton } from "@clerk/nextjs";
+
 
 const Navbar = () => {
+
+
+  
   const [isVisible, setIsVisible] = useState(false);
 
   const toggleVisibility = () => {
@@ -28,12 +31,6 @@ const Navbar = () => {
 
         {/* User Actions */}
         <div className="flex items-center md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-          <SignedOut>
-            <SignInButton className="lg:px-4 lg:py-1 md:px-3 md:py-1 px-2 py-1 bg-yellow-500 font-medium hover:opacity-90 text-black rounded-full  ease-linear duration-100" />
-          </SignedOut>
-          <SignedIn>
-            <UserButton />
-          </SignedIn>
           {/* Hamburger Menu */}
           <button
             onClick={toggleVisibility}
