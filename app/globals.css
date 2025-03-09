@@ -19,3 +19,24 @@ body {
   background: var(--background);
   font-family: 'Times New Roman', Times, serif;
 }
+
+/* Define custom font faces */
+@font-face {
+  font-family: 'Open Sans';
+  src: url('/fonts/OpenSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('/fonts/OpenSans-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Merriweather';
+  src: url('/fonts/Merriweather-Regular.ttf') format('truetype');
+  font-weight: normal;
+}
+
+/* Rest of the CSS remains the same as Method 1 */

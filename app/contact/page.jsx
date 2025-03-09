@@ -4,7 +4,7 @@ const page = () => {
   return (
     <>
     <div className='min-h-screen text-center text-4xl mt-20'>
-  About Page
+  Contact Page
 </div>
 <div className='min-h-screen'>
 </div>
